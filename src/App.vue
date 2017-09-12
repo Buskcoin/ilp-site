@@ -66,7 +66,7 @@ body {
   border: none;
     position: absolute;
 
-    top: 5px;
+    //top: 5px;
     left: 12px;
     font-size: 30px;
     padding: 20px;
