@@ -1,24 +1,28 @@
 <template>
   <div class="hello">
+    <ul>
 
-    <ul>
-      <h1>{{ msg }}</h1>
-      <h2>Essential Links</h2>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
+      <div class="csumb-content">
+        <div class="photo">
+             <!--<img src="../assets/photo.jpg" alt="profile" width="170" height="170">-->
+          <h3>Keith Groves</h3>
+          <ul>
+            <li>email</li>
+            <li>github</li>
+            <li>linkedin</li>
+
+          </ul>
+       
+        </div>
+        <h2>CSUMB Computer Science B.S.</h2>
+
+        <p>
+          In the CS program, students learn fundamental computer science concepts while applying their knowledge to solve real&#45;world problems. Collaboration, team work and communication skills are infused into the learning experiences with heavily project&#45;based courses in a state&#45;of&#45;the&#45;art technological environment. Students begin by taking a set of common core courses to establish a strong foundation in computer science, followed by taking courses in one of four concentration areas: software engineering, network and security, data science, or game development. The curriculum provides students the opportunity to learn concepts and develop skills in more than one concentration, helping them to become well rounded computer science professionals.
+        </p>
+      </div>
     </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
-  </div>
+
+<p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View byte bistro  cst205 final presentation on Scribd" href="https://www.scribd.com/document/359926915/byte-bistro-cst205-final-presentation#from_embed"  style="text-decoration: underline;" >byte bistro  cst205 final presentation</a> by <a title="View api-373852807's profile on Scribd" href="https://www.scribd.com/user/373852807/api-373852807#from_embed"  style="text-decoration: underline;" >api-373852807</a> on Scribd</p><iframe class="scribd_iframe_embed" title="byte bistro  cst205 final presentation" src="https://www.scribd.com/embeds/359926915/content?start_page=1&view_mode=slideshow&access_key=key-yh40cpbGtLfrXwzV4qoZ&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.7790927021696252" scrolling="no" id="doc_94563" width="100%" height="600" frameborder="0"></iframe>  </div>
 </template>
 
 <script>
@@ -26,31 +30,80 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'ILP'
+      msg: 'CSUMB ILP PORTFOLIO'
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<!--
 <style scoped>
-h1, h2 {
-  font-weight: normal;
+h1 {
+  font-size: 50px;
+  padding: 100px;
+  color: #4c6b83;
+}
+
+h2 {
+  padding: 50px;
+  text-align: center;
+  color: #4c6b83;
+}
+h3 {
+  color: #4c6b83;
+  text-align: center;
+  position: relative;
+  margin-top: 10px
+}
+
+.banner {
+  background: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #4c6b83;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 li {
+  color: #4c6b83;
   display: inline-block;
   margin: 0 10px;
 }
 
-a {
-  color: #42b983;
+p {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.csumb-content {
+  display: block;
+  font-weight: normal;
+  text-align: left;
+
+  margin: 20px 400px 20px 400px;
+}
+
+.photo {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #4c6b83;
+  overflow: auto;
+}
+img{
+  float:left;
+  position: fixed;
+  border-right: 3px solid #4c6b83;
+  margin: 10px;
 }
 </style>
--->
+

@@ -2,11 +2,17 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import goodbye from '@/components/goodbye'
-import GoodbyeChild from '@/components/GoodbyeChild'
+import core from '@/components/Core'
+import Concentration from '@/components/Concentration'
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/core/:name',
+      name: 'core',
+      component: core
+    },
     {
       path: '/goodbye/:name',
       name: 'goodbye',
@@ -14,7 +20,7 @@ export default new Router({
       children: [
         {
           path: 'child',
-          component: GoodbyeChild
+          component: Concentration
         }
       ]
     },

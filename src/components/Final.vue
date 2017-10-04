@@ -1,5 +1,5 @@
 <template>
-  <div class="goodbye">
+  <div class="final">
 <!--    <h1>{{ msg }}</h1>
     <h2>Goodbye {{ $route.params.name}}</h2>
     -->
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'goodbye',
+  name: 'final',
   data () {
     return {
       msg: 'This is the goodbye page'
