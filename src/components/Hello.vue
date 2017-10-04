@@ -22,7 +22,6 @@
       </div>
     </ul>
 
-<p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View byte bistro  cst205 final presentation on Scribd" href="https://www.scribd.com/document/359926915/byte-bistro-cst205-final-presentation#from_embed"  style="text-decoration: underline;" >byte bistro  cst205 final presentation</a> by <a title="View api-373852807's profile on Scribd" href="https://www.scribd.com/user/373852807/api-373852807#from_embed"  style="text-decoration: underline;" >api-373852807</a> on Scribd</p><iframe class="scribd_iframe_embed" title="byte bistro  cst205 final presentation" src="https://www.scribd.com/embeds/359926915/content?start_page=1&view_mode=slideshow&access_key=key-yh40cpbGtLfrXwzV4qoZ&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.7790927021696252" scrolling="no" id="doc_94563" width="100%" height="600" frameborder="0"></iframe>  </div>
 </template>
 
 <script>
