@@ -8,7 +8,7 @@
           <h3>Keith Groves</h3>
           <ul>
             <li>email</li>
-            <li>github</li>
+            <li><a href="github.com/buskcoin">github</a></li>
             <li>linkedin</li>
 
           </ul>

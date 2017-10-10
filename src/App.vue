@@ -29,9 +29,9 @@
           <div>
             <button class="toggle-button"></button>
             <div class="banner">
-              <h1 class="main-title">{{msg}}<img src="./assets/csumb-web-site.jpg">
+              <h1 class="main-title">{{msg}}<img src="./assets/csumb-web-site.jpg" width="200" height="100">
               </h1>
-              <h1 class="main-title">_{{ $route.params.name}}_</h1>
+              <h1 class="main-title"><span style="color:white">_</span>{{ $route.params.name}}<span style="color:white">_</span></h1>
             </div>
             <router-view></router-view>
           </div>
@@ -80,10 +80,13 @@ body {
   margin: 0;
 }
 .main-title {
-  font-size: 50px;
-  padding: 10px;
+  font-size: 35px;
+  padding: 5px;
+  
     color: #4c6b83;
 }
+
+
 .toggle-button {
   border: none;
   position: absolute;
