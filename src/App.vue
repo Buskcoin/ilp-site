@@ -60,7 +60,7 @@ export default {
   },
   data () {
     return {
-      msg: 'CSUMB ILP updated PORTFOLIO'
+      msg: 'CSUMB ILP PORTFOLIO'
     }
   }
 }
