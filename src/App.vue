@@ -60,7 +60,7 @@ export default {
   },
   data () {
     return {
-      msg: 'CSUMB ILP PORTFOLIO '
+      msg: 'CSUMB ILP PORTFOLIO'
     }
   }
 }
@@ -155,7 +155,7 @@ li {
   background: white;
   border-style: solid;
    border-radius: 10px;
-    border-width: 10px;
+    border-width: 5px;
     border-color:#4c6b83;
 }
 </style>
