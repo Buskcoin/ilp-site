@@ -167,7 +167,6 @@ p {
   margin: 20px 400px 20px 400px;
 }
 .paragraph{
-
    margin: 20px 400px 20px 400px;
    text-align: left;
 }
