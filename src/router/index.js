@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
+import CST338 from '@/components/concentration/CST338'
 import goodbye from '@/components/goodbye'
 import core from '@/components/Core'
 import Concentration from '@/components/Concentration'
@@ -28,6 +29,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/CST338',
+      name: 'CST338',
+      component: CST338
     }
   ]
 })

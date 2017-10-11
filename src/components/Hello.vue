@@ -81,6 +81,8 @@ p {
   font-size: 18px;
   line-height: 1.5;
   color: #666666;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 a {
   color:#4c9b83 
@@ -89,8 +91,8 @@ a {
   display: block;
   font-weight: normal;
   text-align: left;
-
-  margin: 20px 400px 20px 400px;
+  margin: 0 auto;
+  
 }
 
 .photo {
@@ -99,6 +101,7 @@ a {
   border-width: 5px;
   border-color: #4c6b83;
   overflow: auto;
+  margin:20px 300px;
 }
 img{
   float:left;

@@ -12,7 +12,7 @@
       <font  >Courses:</font>
       <ul>
         <li>
-          <a href="/cst-338---software-design.html">CST 338 - Software Design</a>
+          <router-link to="/CST338">CST 338 - Software Design</router-link>
         </li>
       </ul>
       <strong>
@@ -27,7 +27,7 @@
       <font  >Courses:</font>
       <ul>
         <li>
-          <a href="/cst-336---internet-programming.html">CST 336 - Internet Programming</a>
+          <router-link to="/CST336">CST 336 - Internet Programming</router-link>
         </li>
         <li>
           <a href="/cst-370---design-and-analysis-of-algorithms.html">CST 370 - Design and Analysis of Algorithms</a>
