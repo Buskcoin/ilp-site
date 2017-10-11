@@ -29,7 +29,7 @@
           <div>
             <button class="toggle-button"></button>
             <div class="banner">
-              <h1 class="main-title">{{msg}}<img src="./assets/csumb-web-site.jpg" width="200" height="100">
+              <h1 class="main-title">{{msg}}<img src="./assets/csumb-web-site.jpg" width="300" height="170">
               </h1>
               <h1 class="main-title"><span style="color:white">_</span>{{ $route.params.name}}<span style="color:white">_</span></h1>
             </div>
