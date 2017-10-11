@@ -7,9 +7,9 @@
              <!--<img src="../assets/photo.jpg" alt="profile" width="170" height="170">-->
           <h3>Keith Groves</h3>
           <ul>
-            <li>email</li>
-            <li><a href="github.com/buskcoin">github</a></li>
-            <li>linkedin</li>
+            <li><a href="mailto:kegroves@csumb.edu>email">email</a></li>
+            <li><a href="https://www.github.com/buskcoin">github</a></li>
+            <li><a href="https://www.linkedin.com/in/keithalgroves">linkedin</a></li>
 
           </ul>
        
@@ -38,13 +38,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  font-size: 50px;
-  padding: 100px;
+  font-size: 40px;
+  padding: 40px;
   color: #4c6b83;
 }
 
 h2 {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
   color: #4c6b83;
 }
@@ -72,17 +72,19 @@ ul {
 li {
   color: #4c6b83;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 p {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #666666;
 }
-
+a {
+  color:#4c9b83 
+}
 .csumb-content {
   display: block;
   font-weight: normal;
