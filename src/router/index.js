@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import CST338 from '@/components/concentration/CST338'
+import CST205 from '@/components/core/CST205'
+import CST300 from '@/components/core/CST300'
+import CST311 from '@/components/core/CST311'
 import goodbye from '@/components/goodbye'
 import core from '@/components/Core'
 import Concentration from '@/components/Concentration'
@@ -34,6 +37,22 @@ export default new Router({
       path: '/CST338',
       name: 'CST338',
       component: CST338
+    },
+    {
+      path: '/CST205',
+      name: 'CST205',
+      component: CST205
+    },
+    {
+      path: '/CST300',
+      name: 'CST300',
+      component: CST300
+    },
+    {
+      path: '/CST311',
+      name: 'CST311',
+      component: CST311
     }
+
   ]
 })

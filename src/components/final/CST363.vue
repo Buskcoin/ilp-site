@@ -1,7 +1,11 @@
 <template>
   <div class="CST363">
+    <div class="course" style="text-align:left;">
+    <h2>Course Description</h2>
+    <p>{{msg}}
+    </p>
 
-  <router-view></router-view>
+</div>
   </div>
 
 </template>
@@ -19,5 +23,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h2 {
+  text-align: center;
+  color: #4c6b83;
+  padding: 20px;
+}
+p {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666666;
+  overflow-x: auto;
 
+}
+.course {
+    margin: auto;
+  width: 800px;
+  height: 200px;
+}
 </style>
