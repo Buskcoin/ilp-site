@@ -6,18 +6,35 @@
         <div>Menu</div>
 
         <div class="side-menu">
-          <ul>
+          <ul class="menu-list">
             <li>
-              <router-link to="/">Home</router-link>
+              <router-link tag="li" to="/">Home</router-link>
+
+            </li>
+            <li><router-link tag="li" to="/core/Core">Core MLOS</router-link>
+              <ul>
+                <li><router-link tag="li" to="/CST370/Internet Programming">CST370 <div id="detail">- Internet Programming</div></router-link></li>
+                <li><router-link tag="li" to="/CST338/Software Design">CST338 <div id="detail">- Software Design</div></router-link></li>
+                <li><router-link tag="li" to="/CST436/Design and Analysis of Algorithms">CST436 <div id="detail">- Design and Analysis of Algorithms</div></router-link></li>
+                <li><router-link tag="li" to="/CST336/Software Engineering">CST336 <div id="detail">- Software Engineering</div></router-link></li>
+              </ul>
+            </li>
+            <li><router-link tag="li" to="/concentration/Concentration">Concentration MLOS</router-link>
+              <ul>
+                <li><router-link tag="li" to="/CST205/Multimedia Design and Programming">CST205 <div id="detail">- Multimedia Design and Programming</div></router-link></li>
+                <li><router-link tag="li" to="/CST300/Major Proseminar">CST300 <div id="detail">- Major Proseminar</div></router-link></li>
+                <li><router-link tag="li" to="/CST311/Intro to Computer Networks">CST311 <div id="detail">- Intro to Computer Networks</div></router-link></li>
+              </ul>
             </li>
             <li>
-              <router-link to="/core/Core">Core MLOS</router-link>
-            </li>
-            <li>
-              <router-link to="/goodbye/Concentration/child">Concentration MLOS</router-link>
-            </li>
-            <li>
-              <router-link to="/goodbye/bob/asd">Capstone</router-link>
+              Final
+              <ul>
+                <li><router-link tag="li" to="/CST325/Graphics Programming">CST325<div id="detail">- Graphics Programming</div> </router-link></li>
+                <li><router-link tag="li" to="/CST361S/Technology Tutors and Service Learning">CST361S<div id="detail">- Technology Tutors/Service Learning</div></router-link></li>
+                <li><router-link tag="li" to="/CST363/Introduction to Databases Systems">CST363<div id="detail">- Introduction to Databases Systems</div></router-link></li>
+                <li><router-link tag="li" to="/CST373/Ethics in Communication and Technology">CST373<div id="detail">- Ethics in Communication and Technology</div></router-link></li>
+                <li><router-link tag="li" to="/CST499/Senior Capstone Project">CST499<div id="detail">- Senior Capstone Project</div></router-link></li>
+              </ul>
             </li>
           </ul>
 
@@ -82,7 +99,7 @@ body {
 .main-title {
   font-size: 35px;
   padding: 5px;
-  
+
     color: #4c6b83;
 }
 
@@ -140,15 +157,36 @@ body {
 
 .side-menu {
 
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 li {
-  padding: 8px 8px 8px 0px;
+  padding: 3px 3px 3px 0px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   color: #818181;
   display: block;
+
+}
+
+li li:hover {
+  padding: 3px 3px 3px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #007bff;
+  display: block;
+
+  cursor:pointer;
+  cursor: hand;
+}
+
+li li:hover #detail{
+display:block;
+}
+
+#detail{
+  display:none;
+  font-size: 12px;
 }
 
 .router-link-exact-active {
@@ -160,5 +198,9 @@ li {
    border-radius: 10px;
     border-width: 5px;
     border-color:#4c6b83;
+}
+.menu-list {
+  text-align: left;
+
 }
 </style>

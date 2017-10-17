@@ -4,7 +4,8 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <a href="http://hosting.otterlabs.org/classes/grov1336/CST336/">Bio</a>
+    <a href="http://hosting.otterlabs.org/cama4277/CST336/GroupProject/login.php/">Auto Website Project</a>
 </div>
   </div>
 
@@ -15,7 +16,7 @@ export default {
   name: 'CST336',
   data () {
     return {
-      msg: 'This is the goodbye page'
+      msg: 'Provides students with dynamic web application development skills, focusing on the PHP, MySQL, and JavaScript. Coverage includes the Internet architecture, XHTML, CSS, programming with PHP, database and MySQL, and client-side programming with JavaScript. '
     }
   }
 }

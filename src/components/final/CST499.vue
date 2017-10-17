@@ -15,7 +15,7 @@ export default {
   name: 'CST3499',
   data () {
     return {
-      msg: 'This is the goodbye page'
+      msg: 'Students will work on a project in large groups (up to 5 students in each group), developing requirements specification, a solution plan followed by design and implementation of the solution. The problem statement for the projects will be selected by the faculty. Faculty will also play the role of a project manager directing the schedule and deliverables for these projects.'
     }
   }
 }

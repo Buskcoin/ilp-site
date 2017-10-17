@@ -15,7 +15,7 @@ export default {
   name: 'CST373',
   data () {
     return {
-      msg: 'This is the goodbye page'
+      msg: 'Investigates through an ethical perspective how communication technology affects our lives. Discusses individual and institutional values represented through technological choices. Using case studies and current events, explores such issues as intellectual property rights, information access and privacy, and the digital divide.'
     }
   }
 }

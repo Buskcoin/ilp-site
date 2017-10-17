@@ -4,7 +4,9 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <div class="media-vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7uRiMOeAgTM" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>
   </div>
 
@@ -12,10 +14,10 @@
 
 <script>
 export default {
-  name: 'final',
+  name: 'CST361S',
   data () {
     return {
-      msg: 'This is the goodbye page'
+      msg: 'A service learning course in which students apply computer literacy, multimedia design, and technology to assist schools, nonprofit organizations, and community agencies. The theme for the course is "Bridging the Digital Divide." Note: students must participate in required service placements with hours to be arranged. Students must be able to create and manage a web site.'
     }
   }
 }
@@ -37,9 +39,17 @@ p {
   overflow-x: auto;
 
 }
+
 .course {
     margin: auto;
   width: 800px;
   height: 200px;
+}
+.media-vid {
+
+    width: 640px; /*can be in percentage also.*/
+     height: auto;
+  margin: 0 auto;
+  position: relative;
 }
 </style>

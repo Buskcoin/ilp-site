@@ -12,10 +12,10 @@
 
 <script>
 export default {
-  name: 'final',
+  name: 'CST325',
   data () {
     return {
-      msg: 'This is the goodbye page'
+      msg: 'This course teaches the students the fundamentals of game programming and skills needed for game development, including GPU programming, matrix and quaternion algebra for physics calculation, animation, lighting and basics of implementing 3D models into a framework. '
     }
   }
 }
