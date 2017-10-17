@@ -4,6 +4,8 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
+    <ul>Course Work
+    </ul>
 <iframe class="scribd_iframe_embed" title="byte bistro  cst205 final presentation" src="https://www.scribd.com/embeds/359926915/content?start_page=1&view_mode=scroll&access_key=key-yh40cpbGtLfrXwzV4qoZ&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.7790927021696252" scrolling="no" id="doc_18457" width="100%" height="600" frameborder="0"></iframe>
 
 </div>

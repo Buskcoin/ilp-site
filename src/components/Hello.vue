@@ -18,7 +18,7 @@
         </div>
         <h2>About me</h2>
         <p>
-          I am The Head Teacher at a programming school called The League of Amazing Programmers, a nonprofit school for kids in the 5th - 12th grade. My life has been a very winding path but I am very glad that it has led me here where I can make a difference in others lives. Though I mostly program in Java, I enjoy creating and learning new things in other languages. As an example, this page was built using <a href="https://vuejs.org/">Vue.js</a> so I could learn more about the framework. You can check out the code <a href="https://github.com/Buskcoin/ilp-site">right here on github</a>.
+          I am the Head Teacher at a programming school called The League of Amazing Programmers, a nonprofit school for kids in the 5th - 12th grade. My life has been a very winding path but I am very glad that it has led me here where I can make a difference in others lives. Though I mostly program in Java, I enjoy creating and learning new things in other languages. As an example, this page was built using <a href="https://vuejs.org/">Vue.js</a> so I could learn more about the framework. You can check out the code <a href="https://github.com/Buskcoin/ilp-site">right here on github</a>.
         </p>
       </div>
       <h2>About the C.S program</h2>
