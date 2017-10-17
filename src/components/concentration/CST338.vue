@@ -4,7 +4,10 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <ul>
+      Course Work:
+    <li><a href="https://github.com/swiftstrife/Assig6">Group card project built with swing</a></li>
+  </ul>
 </div>
   </div>
 

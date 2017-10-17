@@ -4,12 +4,16 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <ul>
+      Course Work:
+    <li><a href="https://repl.it/I9Tt/12">Sorting algorithms</a></li>
+    </ul>
+    <iframe width="800" height="315" src="//repl.it/embed/I9Tt/12" frameborder="0" allowfullscreen></iframe>
 </div>
   </div>
 
 </template>
-
+<script src="//repl.it/embed/I9Tt/12.js"></script>
 <script>
 export default {
   name: 'CST436',

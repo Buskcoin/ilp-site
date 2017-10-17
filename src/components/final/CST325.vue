@@ -4,6 +4,8 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
+    Course Work:
+<iframe width="850" height="800"  src="https://docs.google.com/document/d/e/2PACX-1vRkDAzb45HPO8GvR3PcwEKx1UcZmI1raYsXJnIFwexLf2u5nH7sJzkeeTBczdWPfp368HxGGP6iATKk/pub?embedded=true"></iframe>
 
 </div>
   </div>

@@ -4,7 +4,10 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <ul>Course Work
+      <li><a href="http://hosting.otterlabs.org/classes/grov1336/CST336/">Bio</a></li>
+      <li><a href="http://hosting.otterlabs.org/cama4277/CST336/GroupProject/login.php/">Auto Website Project</a></li>
+    </ul>
 </div>
   </div>
 

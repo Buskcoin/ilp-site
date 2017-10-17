@@ -24,10 +24,10 @@
       </ul>
       <ul>Courses:
         <li>
-          <router-link to="/CST336" tag="li" id="ilpLink">CST 336 - Internet Programming</router-link>
+          <router-link to="/CST336/Internet Programming" tag="li" id="ilpLink">CST 336 - Internet Programming</router-link>
         </li>
         <li>
-            <router-link to="/CST336" tag="li" id="ilpLink">CST 370 - Design and Analysis of Algorithms</router-link>
+            <router-link to="/CST370/Design and Analysis of Algorithms" tag="li" id="ilpLink">CST 370 - Design and Analysis of Algorithms</router-link>
         </li>
       </ul>
         <h2>SE Outcome 3: Planning, Analysis, and Production of Software Application</h2>
@@ -42,7 +42,7 @@
       </ul>
       <ul>Courses:
         <li>
-          <router-link to="/CST336" tag="li" id="ilpLink">CST 438 - Software Engineering</router-link>
+          <router-link to="/CST336/Software Engineering" tag="li" id="ilpLink">CST 438 - Software Engineering</router-link>
         </li>
       </ul>
     </div>

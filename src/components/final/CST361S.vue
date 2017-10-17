@@ -7,6 +7,7 @@
     <div class="media-vid">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7uRiMOeAgTM" frameborder="0" allowfullscreen></iframe>
 </div>
+<iframe width="850" height="800" src="https://docs.google.com/document/d/e/2PACX-1vRM2rODrAmqybRDn7jkFItp8omyDC1LtNhB4LL2gQrOj-LLXnTf-xuxQXo8ql5J_lwfHbEF0OnvgWKW/pub?embedded=true"></iframe>
 </div>
   </div>
 

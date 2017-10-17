@@ -4,6 +4,9 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
+    <ul>Course Work
+      <li><a href="http://hosting.otterlabs.org/cama4277/CST336/GroupProject/login.php/">Auto Database Website Project</a></li>
+    </ul>
 
 </div>
   </div>

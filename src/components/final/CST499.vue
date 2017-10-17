@@ -4,7 +4,9 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <ul>Course Work
+      <li><a href="https://github.com/Buskcoin/roombaide">Roombaide</a></li>
+    </ul>
 </div>
   </div>
 

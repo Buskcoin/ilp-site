@@ -4,8 +4,10 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-    <a href="http://hosting.otterlabs.org/classes/grov1336/CST336/">Bio</a>
-    <a href="http://hosting.otterlabs.org/cama4277/CST336/GroupProject/login.php/">Auto Website Project</a>
+    <ul>Course Work:
+    <li><a href="https://github.com/mg17/weatherservice">Weather Service App</a></li>
+
+  </ul>
 </div>
   </div>
 
@@ -42,5 +44,14 @@ p {
     margin: auto;
   width: 800px;
   height: 200px;
+}
+li {
+
+  text-decoration: none;
+  font-size: 15px;
+  color: #313131;
+  display: block;
+  font-weight: normal;
+
 }
 </style>

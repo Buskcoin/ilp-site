@@ -13,7 +13,7 @@
         </ul>
         <ul>Couses:
           <li>
-            <router-link to="/CST336" tag="li" id="ilpLink">CST 300 - Major Proseminar</router-link>
+            <router-link to="/CST300/Major Proseminar" tag="li" id="ilpLink">CST 300 - Major Proseminar</router-link>
           </li>
         </ul>
 
@@ -34,7 +34,7 @@
         <ul>
           <li>
 
-              <router-link to="/CST336" tag="li" id="ilpLink">CST 311, Intro to Computer Networks</router-link>
+              <router-link to="/CST311/Intro to Computer Networks" tag="li" id="ilpLink">CST 311, Intro to Computer Networks</router-link>
 
           </li>
         </ul>
