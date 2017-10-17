@@ -12,7 +12,7 @@
             <li><a href="https://www.linkedin.com/in/keithalgroves">linkedin</a></li>
 
           </ul>
-       
+
         </div>
         <h2>CSUMB Computer Science B.S.</h2>
 
@@ -72,6 +72,7 @@ ul {
 li {
   color: #4c6b83;
   display: inline-block;
+  font-size: 21px;
   margin: 0 20px;
 }
 
@@ -85,14 +86,14 @@ p {
   padding-right: 200px;
 }
 a {
-  color:#4c9b83 
+  color:#4c9b83
 }
 .csumb-content {
   display: block;
   font-weight: normal;
   text-align: left;
   margin: 0 auto;
-  
+
 }
 
 .photo {
@@ -110,4 +111,3 @@ img{
   margin: 10px;
 }
 </style>
-
