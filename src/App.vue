@@ -44,11 +44,15 @@
       <main id="panel">
         <header>
           <div>
+            <div class="button-div">
             <button class="toggle-button"></button>
+            </div>
             <div class="banner">
-              <h1 class="main-title">{{msg}}<img src="./assets/csumb-web-site.jpg" width="300" height="170">
-              </h1>
-              <h1 class="main-title"><span style="color:white">_</span>{{ $route.params.name}}<span style="color:white">_</span></h1>
+              <div class="main-title">{{msg}}
+                <img src="./assets/csumb-web-site.jpg" width="300" height="170">
+              <div class="subtitle"><h2><span style="color:white">_</span>{{ $route.params.name}}<span style="color:white">_</span></h2>
+              </div>
+            </div>
             </div>
             <router-view></router-view>
           </div>
@@ -97,22 +101,82 @@ body {
   margin: 0;
 }
 .main-title {
+  background: white;
+  border-style: solid;
+  border:none;
+   border-radius: 10px;
+    border-width: 5px;
   font-size: 35px;
   padding: 5px;
-
+  width: ;
+  margin: 10px auto;
     color: #4c6b83;
 }
-
-
-.toggle-button {
-  border: none;
+.subtitle{
+  padding-top: 15px;
+}
+.button-div{
+  color: #4c6b83;
+  border-radius: 6px;
   position: absolute;
   top: 20px;
   left: 20px;
   font-size: 30px;
   padding: 20px;
   outline: none;
-  background: url('assets/menu.png') no-repeat left center;
+  width: 60px;
+  height: 60px;
+  background: white;
+
+}
+.button-div:hover{
+  color: #4c6b83;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  padding: 20px;
+  outline: none;
+  width: 64px;
+  height: 64px;
+  background: white;
+
+
+}
+
+
+.toggle-button {
+  border-color: #4c6b83;
+  border:none;
+  margin: 0;
+  top:0;
+  left:0;
+  width:60px;
+  height:60px;
+  position:absolute;
+  outline:none;
+  background: url('assets/menu.png') no-repeat center;
+}
+
+.toggle-button::-moz-focus-inner {
+  border: 0;
+}
+
+.toggle-button:focus {outline:none;}
+
+.toggle-button:hover {
+  border:none;
+  outline:none;
+  margin: 0;
+  top:0;
+  left:0;
+  width:64px;
+  height:64px;
+  position:absolute;
+  background: url('assets/menu.png') no-repeat center;
+  cursor:pointer;
+  cursor: hand;
 }
 
 .slideout-menu {
@@ -193,10 +257,10 @@ display:block;
   color: #4c6b83;
 }
 .banner {
-  background: white;
+  background: linear-gradient(45deg,#4c6b83 0,#ffffff 100%);
   border-style: solid;
    border-radius: 10px;
-    border-width: 5px;
+    border-width: 1px;
     border-color:#4c6b83;
 }
 .menu-list {
