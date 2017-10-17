@@ -97,9 +97,11 @@ a {
 }
 
 .photo {
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 5px;
+  //background: linear-gradient(0deg,#5e7d95 0,#ffffff 40%);
+  border-bottom: solid;
+  //border-style: solid;
+  //border-radius: 20px;
+  //border-width: 5px;
   border-color: #4c6b83;
   overflow: auto;
   margin:20px 300px;

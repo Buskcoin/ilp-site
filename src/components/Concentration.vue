@@ -1,41 +1,36 @@
 <template>
   <div class="Concentration">
+
     <div class="csumb-content" style="text-align:left;">
-      <strong>
-        <h3>SE Outcome 1: Advanced Programming</h3>
-      </strong><br />
-      <font  >Apply object-oriented techniques to software construction.</font>
-      <ul>
-        <li>Apply object-oriented analysis and design to practical software construction.</li>
-        <li>Provide a graphical user interface of a software system to a user.</li>
+
+        <h2>SE Outcome 1: Advanced Programming</h2>
+        <h3>Apply object-oriented techniques to software construction.</h3>
+        <ul>
+      <li>Apply object-oriented analysis and design to practical software construction.</li>
+      <li>Provide a graphical user interface of a software system to a user.</li>
+    </ul>
+      <ul>Courses:
+        <router-link to="/CST338/Software Design" tag="li" id="ilpLink">CST 338 - Software Design</router-link>
       </ul>
-      <font  >Courses:</font>
-      <ul>
-        <li>
-          <router-link to="/CST338">CST 338 - Software Design</router-link>
-        </li>
-      </ul>
-      <strong>
-        <h3>SE Outcome 2: Specialized Programming</h3>
-      </strong><br />
-      <font  >Apply programming skills to a specialized application.</font>
+
+
+
+        <h2>SE Outcome 2: Specialized Programming</h2>
+      <h3>Apply programming skills to a specialized application.</h3>
       <ul>
         <li>Utilize professional level platforms and tools to produce software systems that meet specified user needs and constraints.</li>
         <li>Combine several software skills and techniques to create an integrated software system.</li>
         <li>Articulate industry trends in the particular domains.</li>
       </ul>
-      <font  >Courses:</font>
-      <ul>
+      <ul>Courses:
         <li>
-          <router-link to="/CST336">CST 336 - Internet Programming</router-link>
+          <router-link to="/CST336" tag="li" id="ilpLink">CST 336 - Internet Programming</router-link>
         </li>
         <li>
-          <a href="/cst-370---design-and-analysis-of-algorithms.html">CST 370 - Design and Analysis of Algorithms</a>
+            <router-link to="/CST336" tag="li" id="ilpLink">CST 370 - Design and Analysis of Algorithms</router-link>
         </li>
       </ul>
-      <strong>
-        <h3>SE Outcome 3: Planning, Analysis, and Production of Software Application</h3>
-      </strong><br />
+        <h2>SE Outcome 3: Planning, Analysis, and Production of Software Application</h2>
       <h3>Demonstrate the ability to analyze, plan, and produce a complete software application.</h3>
       <ul>
         <li>Articulate the software system development life cycle and its characteristics.</li>
@@ -45,10 +40,9 @@
         <li>Collaborate with team members to implement a large software system.</li>
         <li>Understand and apply modern software production practice and tools such as component based programming, integrated development environment, version control and testing.</li>
       </ul>
-      <h3>Courses:</h3>
-      <ul>
+      <ul>Courses:
         <li>
-          <a href="/cst-438---software-engineering.html">CST 438 - Software Engineering</a>
+          <router-link to="/CST336" tag="li" id="ilpLink">CST 438 - Software Engineering</router-link>
         </li>
       </ul>
     </div>
@@ -61,7 +55,9 @@ export default {
   name: 'Concentration',
   data () {
     return {
-      msg: 'Hellow'
+      msg: 'Hellow',
+      msg2: 'bye',
+      msg4: 'test'
     }
   }
 }
@@ -74,12 +70,33 @@ h1 {
   padding: 100px;
   color: #4c6b83;
 }
-
 h2 {
-  padding: 50px;
   text-align: center;
   color: #4c6b83;
+  padding: 20px;
+
 }
+h3 {
+  text-align: left;
+  color: #4c6b83;
+  padding-bottom: 16px;
+    font-size: 20px;
+}
+p {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  //color: #666666;
+  //overflow-x: auto;
+
+}
+.course {
+    margin: auto;
+  width: 800px;
+  height: 200px;
+}
+
+
 
 .banner {
   background: white;
@@ -92,27 +109,47 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
+  font-weight: bold;
 }
 
 li {
-  color: #4c6b83;
-  display: inline-block;
-  margin: 0 10px;
+
+  text-decoration: none;
+  font-size: 15px;
+  color: #313131;
+  display: block;
+  font-weight: normal;
+
+}
+#ilpLink {
+
+  text-decoration: none;
+  font-size: 16px;
+  color: #717171;;
+  display: block;
+
+  cursor:pointer;
+  cursor: hand;
+}
+#ilpLink:hover {
+
+  text-decoration: none;
+  font-size: 16px;
+  color: #007bff;
+  display: block;
+
+  cursor:pointer;
+  cursor: hand;
 }
 
-p {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #666666;
-}
+
 
 .csumb-content {
   display: block;
   font-weight: normal;
   text-align: left;
+  width: 800px;
 
-  margin: 20px 400px 20px 400px;
+  margin: auto;
 }
 </style>

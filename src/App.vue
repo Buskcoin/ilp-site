@@ -27,7 +27,7 @@
               </ul>
             </li>
             <li>
-              <router-link tag="li" to="/concentration/Final">Final</router-link>
+              <router-link tag="li" to="/final/Final">Final</router-link>
               <ul>
                 <li><router-link tag="li" to="/CST325/Graphics Programming">CST325<div id="detail">- Graphics Programming</div> </router-link></li>
                 <li><router-link tag="li" to="/CST361S/Technology Tutors and Service Learning">CST361S<div id="detail">- Technology Tutors/Service Learning</div></router-link></li>

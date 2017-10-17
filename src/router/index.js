@@ -16,6 +16,7 @@ import CST499 from '@/components/final/CST499'
 import goodbye from '@/components/goodbye'
 import core from '@/components/Core'
 import Concentration from '@/components/Concentration'
+import Final from '@/components/Final'
 Vue.use(Router)
 
 export default new Router({
@@ -45,6 +46,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/final/:name',
+      name: 'final',
+      component: Final
     },
     {
       path: '/CST205/:name',

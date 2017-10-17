@@ -27,6 +27,8 @@ h2 {
   text-align: center;
   color: #4c6b83;
   padding: 20px;
+  font-weight: bold;
+  font-size: 22px;
 }
 p {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
