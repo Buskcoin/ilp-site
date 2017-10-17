@@ -49,7 +49,7 @@ export default new Router({
     },
     {
       path: '/final/:name',
-      name: 'final',
+      name: 'Final',
       component: Final
     },
     {

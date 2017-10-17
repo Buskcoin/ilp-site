@@ -30,11 +30,11 @@
           <li>Describe the structure and organization of a modern microprocessor, and the sequence of operations in a typical instruction execution.</li>
           <li>Demonstrate a basic understanding of Assembly Language programming.</li>
         </ul>
-        Satisfied With:
+        Courses:
         <ul>
           <li>
 
-              <router-link to="/CST336" tag="li" id="ilpLink">&#8203;CST 311, Intro to Computer Networks</router-link>
+              <router-link to="/CST336" tag="li" id="ilpLink">CST 311, Intro to Computer Networks</router-link>
 
           </li>
         </ul>
@@ -51,7 +51,7 @@
           <li>Demonstrate programming competency in a variety of programming structures, including arithmetic operations, control structures and loops, input/output operations including file I/O, the use of function calls, and the use of arrays and other storage types.</li>
           <li>Debug a program using appropriate debugging strategies.</li>
           <li>Produce a complete set of documentation for a program.</li>
-        </ul>&#8203;
+        </ul>
         Courses:
         <ul>
           <li>
@@ -74,16 +74,13 @@
           <li>Demonstrate an understanding of discrete mathematical concepts used in computing: Articulate and apply the concepts of binary numbers, combinatorics, logic, truth tables, graph theory and algorithms to problems in Computer Science and Information Technology.</li>
           <li>Analyze and evaluate the mathematical thinking and strategies of others.</li>
         </ul>
-        Satisfied With:
+        Courses:
         <ul>
           <li>
             MATH 150, Calculus I
           </li>
           <li>
-            MATH 151, Calculus II
-          </li>
-          <li>
-            MATH 170, Discrete Mathematics&#8203;
+            MATH 170, Discrete Mathematics&
           </li>
         </ul>
 
@@ -97,10 +94,10 @@
           <li>Design, create, and edit electronic images, sounds, videos, text, and motion.</li>
           <li>Use multimedia authoring tools to design, manage, and execute an interactive multimedia project.</li>
         </ul>
-        Satisfied With:
+        Courses:
         <ul>
           <li>
-              <router-link to="/CST336" tag="li" id="ilpLink""/cst-205-multimedia-programming.html">CST 205, Multimedia Design and Programming</router-link>
+              <router-link to="/CST205/Multimedia Design and Programming" tag="li" id="ilpLink">CST 205, Multimedia Design and Programming</router-link>
 
           </li>
         </ul>

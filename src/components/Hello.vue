@@ -3,6 +3,8 @@
     <ul>
 
       <div class="csumb-content">
+
+
         <div class="photo">
              <!--<img src="../assets/photo.jpg" alt="profile" width="170" height="170">-->
           <h3>Keith Groves</h3>
@@ -14,12 +16,17 @@
           </ul>
 
         </div>
-        <h2>CSUMB Computer Science B.S.</h2>
-
+        <h2>About me</h2>
         <p>
-          In the CS program, students learn fundamental computer science concepts while applying their knowledge to solve real&#45;world problems. Collaboration, team work and communication skills are infused into the learning experiences with heavily project&#45;based courses in a state&#45;of&#45;the&#45;art technological environment. Students begin by taking a set of common core courses to establish a strong foundation in computer science, followed by taking courses in one of four concentration areas: software engineering, network and security, data science, or game development. The curriculum provides students the opportunity to learn concepts and develop skills in more than one concentration, helping them to become well rounded computer science professionals.
+          I am The Head Teacher at a programming school called The League of Amazing Programmers, a nonprofit school for kids in the 5th - 12th grade. My life has been a very winding path but I am very glad that it has led me here where I can make a difference in others lives. Though I mostly program in Java, I enjoy creating and learning new things in other languages. As an example, this page was built using <a href="https://vuejs.org/">Vue.js</a> so I could learn more about the framework. You can check out the code <a href="https://github.com/Buskcoin/ilp-site">right here on github</a>.
         </p>
       </div>
+      <h2>About the C.S program</h2>
+
+      <p>
+        In the CSUMB Computer Science B.S program, students learn fundamental computer science concepts while applying their knowledge to solve real&#45;world problems. Collaboration, team work and communication skills are infused into the learning experiences with heavily project&#45;based courses in a state&#45;of&#45;the&#45;art technological environment. Students begin by taking a set of common core courses to establish a strong foundation in computer science, followed by taking courses in one of four concentration areas: software engineering, network and security, data science, or game development. The curriculum provides students the opportunity to learn concepts and develop skills in more than one concentration, helping them to become well rounded computer science professionals.
+      </p>
+
     </ul>
   </div>
 </template>
