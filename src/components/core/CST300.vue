@@ -4,7 +4,9 @@
     <h2>Course Description</h2>
     <p>{{msg}}
     </p>
-
+    <ul>Course Work
+<iframe width="850" height="800" src="https://docs.google.com/document/d/e/2PACX-1vTyZIa7Dx9GXUa1l_qZHqJUm2zqUyED9F_3VuhHmeBr_fosEJp26TBzK3rhGk14l-XcywbisWBuzdbD/pub?embedded=true"></iframe>
+ </ul>
 </div>
   </div>
 
